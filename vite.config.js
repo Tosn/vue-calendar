@@ -5,6 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base: '/vue-calendar',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, '/src')
