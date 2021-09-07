@@ -1,6 +1,7 @@
 {
   "name": "vue-calendar",
   "version": "0.0.0",
+  "homepage": "https://Tosn.github.io/vue-calendar",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
