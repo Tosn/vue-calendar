@@ -8,7 +8,6 @@
           <span>{{ currentYearAndMonth }}</span>
           <i class="el-icon-arrow-right" @click="changeMonth(1)"></i>
         </div>
-        <div class="time-zone"></div>
       </div>
     </div>
     <div :class="`${cp}-th`">
@@ -140,16 +139,6 @@ $color-purple: #D5C3FF;
 $color-green: #AFF0C8;
 $color-grey: #EBF1F9;
 #{$cp} {
-  &-box {
-    // border: 1px solid #f0f0f0;
-    .time-zone {
-      display: inline-block;
-      width: 18px;
-      height: 18px;
-      background: url('../../assets/images/icon-utc.png') no-repeat center center /100% 100%;
-      margin-left: 10px;
-    }
-  }
   &-title {
     flex: 1;
     margin-right: 50px;
